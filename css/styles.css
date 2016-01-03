@@ -1,0 +1,156 @@
+/*  global styling */
+
+h1, h2, h3, h4, h5, h6, {
+  color: #494949;
+}
+
+h1, h3, h4, h5{ font-family: 'Playfair Display', serif;}
+ p{ font-family: 'Open Sans', sans-serif;}
+
+body {
+  height: 100%;
+  background-color: #FCFCFC
+   }
+
+.wrap{
+  min-height: 100%;
+  margin: 0 auto -90px;
+}
+
+.footer, .push {
+ height: 50px;
+}
+
+.footer p{
+  color: navy;
+  text-align: center;
+}
+
+.column .padding {
+    padding: 20px;
+}
+
+a {
+  color: #494949;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.separator {
+  margin-top:px;
+  width: 50px;
+  height:25px;
+}
+
+
+.navigation{
+  height: 100px;
+  background-color: #f04c00;
+}
+
+.navbar-header p{
+  text-align: center;
+}
+/* end global styling */
+
+
+/*index- home page styling*/
+.opening {
+  margin-top: 20%;
+ position: relative;
+  text-align: center;
+}
+
+.opening h1, h5{color: #f04c00;
+}
+
+.opening h3{ color: #494949;}
+.view {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.btn-xs{
+  border: none;
+  color: #f04c00;
+}
+/*end home page styling*/
+
+#footer {
+  background-color:#fefefe;}
+/* end common page elements */
+
+
+/*gallery styling*/
+.portfolio-item img{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+
+.portfolio-item a {
+align-content: center
+}
+
+.portfolio-item h3{
+  height: 60px;
+  text-align: center;
+  width: 250px;
+}
+.portfolio-item p{
+  height: 60px;
+  width: 250px;
+  text-align: center;
+}
+
+.project-details h5{
+  color: #494949;
+}
+/*end gallery styling*/
+
+
+
+/*details page styling*/
+.project-separation{
+  margin-bottom: 500em;
+}
+
+.projects q{
+  text-align: center;
+}
+
+.projects{
+  margin-bottom: .75em;
+}
+.project-details h4, h5{
+  margin-top: 2em;
+}
+
+.divider {
+  margin-top:32px;
+}
+/*end details page styling*/
+
+
+/*web design styling*/
+.web-image {
+  margin-bottom: 25px;
+}
+/*end web design styling*/
+
+
+/* bootstrap overrides */
+.page-header {
+  margin-top: 55px;
+  padding-top: 9px;
+  border-top:1px solid #eeeeee;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+
+.col-sm-9.full {
+  width: 100%;
+}
+/*Contact form ending*/
